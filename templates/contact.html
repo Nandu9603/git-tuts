@@ -1,0 +1,24 @@
+{%extends 'base.html'%}
+{%load static%}
+{%block body%}
+<div class="container">
+    <div class="row" style="background-image: url('{%static "img/bg1.png"%}');">
+        <em style="font-size:30px; color:white; margin:20px">Contact PR softwares</em>
+       
+    </div>
+    <div class="container" style="margin:30px">
+        <a href="#">
+            <img src="{%static 'img/fb.png'%}" style="width: 100px;">
+
+        </a>
+        <a href="#" style="margin-left: 70px;">
+            <img src="{%static 'img/int.png'%}" style="width: 100px;">
+
+        </a>
+        <a href="#" style="margin-left: 70px;">
+            <img src="{%static 'img/mail.png'%}" style="width: 100px;">
+
+        </a>
+    </div>    
+</div>
+{%endblock%}

@@ -1,0 +1,36 @@
+{%extends 'base.html'%}
+{%load static%}
+{%block body%}
+<div class="container">
+    <div class="row" style="background-image: url('{% static "img/bg.png" %}'); height: 100vh; background-size: cover; background-position: center;">
+        <div class="position-center" style="margin-top:120px; margin-left:90px; color:white;">
+        <h6>#Let's Grow Your Career</h6>
+        <h1 style="color:red;">Level Up Your Coding </h1>
+        <h1 style="color:red;">Skills with Pr Softwares</h1>
+        <a class="nav-link" href="tel:+919985570759"><button class="btn btn-success background-color:white;" type="submit">Call Us Now</button></a>
+
+        </div>
+    </div>
+    <div class="row" style="margin-left: 10px;">
+        <div class="col-md-8">
+            <h6 style="color: darkgoldenrod;">---PR Softwares</h6>
+            <h1 style="color:blue;">Best Training Institue in  Hyderabad is PR Softwares</h1>
+            <p style="font-size: 15px;">Do you want to learn programming languages? Many students are nowadays looking forward to learning C, C++, Java, Python, Data Science during and after their graduation.
+            </p>
+            <p>
+
+            We are one of the best software training institute in Hyderabad. We teach Python, Java, C, C++, Data Science Training, Django, Java advanced, and other programming languages from basic to advance levels.
+                
+            </p><p>We are in this training industry for more than 8 years and till now we have trained more than 10000+ students. It is a big achievement for us, and we take pride in achieving our goals.
+                
+            </p><p></p>As a training institute, our main focus is imparting practical knowledge rather than focusing on the only theoretical part. We believe in sharing real data, processes, and how to manage those projects as a complete beginner</p>
+        <a href="/about"><button class="btn btn-danger" type="submit" >Read More</button></a>
+        </div>
+
+        <div class="col-md-4">
+            <img src="{%static 'img/home.png'%}" style="width:400px;">
+        </div>
+    </div>
+</div>
+
+{%endblock%}
